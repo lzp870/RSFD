@@ -37,7 +37,7 @@ cd RSFD
 
 ## Download datasets
 
-Organize corpora and extracted features under `VC_data/` in in [GoogleDrive](https://drive.google.com/drive/folders/1oieaYBCNw5sk3fi1cyorYxcMg2LIVXr8?usp=sharing) or [BaiduYun](https://pan.baidu.com/s/1AP3jfSOPcbHHktmHPXeo-w)
+Organize corpora and extracted features under `VC_data/` in in [GoogleDrive](https://drive.google.com/drive/folders/1oieaYBCNw5sk3fi1cyorYxcMg2LIVXr8?usp=sharing) or [BaiduYun](https://pan.baidu.com/s/1CuyAxgYNKnwg4OxRUoPnsA) Extraction code: RSFD
 ```bash
 VC_data
 └── MSRVTT
