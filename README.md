@@ -16,7 +16,7 @@ PyTorch Implementation of the paper:
 
 ## Methodology
 As shown in Fig. 2, our overall framework follows the encoder-decoder structure. During the training process, Frequency-Aware Diffusion (FAD) encourages the model to add low-frequency token noise to learn its semantics. Then the diffusion features of tokens are fused with the corresponding visual features according to the cross-attention mechanism. At the head of the decoder, Divergent Semantic Supervisor (DSS) obtains distinctive semantic features by updating the gradient that adapts to the token itself. In the testing phase, only the original Transformer architecture is retained to generate captions.
-<img src="RSFD.pdf" alt="RSFD" style="zoom:22%;" />
+<img src="RSFD.png" alt="RSFD" style="zoom:100%;" />
 <div style="color:orange;  display: inline-block; color: black; ">Figure 2. Overview of the proposed RSFD architecture. It mainly consists of the encoder in the top-left box and the decoder with FAD and DSS modules in another box. In the training phase, FAD promotes the model comprehending the refined information by mapping the ground-truth caption to the semantic space and fusing it in frequency diffusion. DSS supervises the central word to obtain its distinctive semantics. In the testing phase, only the transformer-based parts are implemented for sentence generation.</div>
 
 
