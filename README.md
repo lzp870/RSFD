@@ -7,7 +7,7 @@ PyTorch Implementation of the paper:
 >
 > Xian Zhong, Zipeng Li, Shuqin Chen, Kui Jiang, Chen Chen, Mang Ye.
 >
-> [[arXiv](https://arxiv.org/abs/2211.15076)] or [[aaai.org](https://arxiv.org/abs/2211.15076)]
+> [[aaai.org](https://ojs.aaai.org/index.php/AAAI/article/view/25484)]
 
 ## Main Contribution
 1. Emphasis on token imbalance to enhance the refined semantics for video captioning.
@@ -37,7 +37,7 @@ cd RSFD
 
 ## Download datasets
 
-Organize corpora and extracted features under `VC_data/` in in [GoogleDrive](https://drive.google.com/drive/folders/1oieaYBCNw5sk3fi1cyorYxcMg2LIVXr8?usp=sharing) or [BaiduYun](https://pan.baidu.com/s/1CuyAxgYNKnwg4OxRUoPnsA) Extraction code: RSFD
+Organize corpora and extracted features under `VC_data/` in [BaiduYun](https://pan.baidu.com/s/1CuyAxgYNKnwg4OxRUoPnsA) Extraction code: RSFD
 ```bash
 VC_data
 └── MSRVTT
@@ -72,18 +72,30 @@ python translate.py --default --dataset MSVD --method ARB
 If our research and this repository are helpful to your work, please **[★star]** this repo and **[cite]** with:
 
 ```
-@article{RSFD,
-  author    = {Xian Zhong and
-               Zipeng Li and
-               Shuqin Chen and
-               Kui Jiang and
-               Chen Chen and
-               Mang Ye},
-  title     = {Refined Semantic Enhancement towards Frequency Diffusion for Video
-               Captioning},
-  journal   = {CoRR},
-  volume    = {abs/2211.15076},
-  year      = {2022},
+@inproceedings{DBLP:conf/aaai/ZhongLCJ0Y23,
+  author       = {Xian Zhong and
+                  Zipeng Li and
+                  Shuqin Chen and
+                  Kui Jiang and
+                  Chen Chen and
+                  Mang Ye},
+  editor       = {Brian Williams and
+                  Yiling Chen and
+                  Jennifer Neville},
+  title        = {Refined Semantic Enhancement towards Frequency Diffusion for Video
+                  Captioning},
+  booktitle    = {Thirty-Seventh {AAAI} Conference on Artificial Intelligence, {AAAI}
+                  2023, Thirty-Fifth Conference on Innovative Applications of Artificial
+                  Intelligence, {IAAI} 2023, Thirteenth Symposium on Educational Advances
+                  in Artificial Intelligence, {EAAI} 2023, Washington, DC, USA, February
+                  7-14, 2023},
+  pages        = {3724--3732},
+  publisher    = {{AAAI} Press},
+  year         = {2023},
+  url          = {https://ojs.aaai.org/index.php/AAAI/article/view/25484},
+  timestamp    = {Sun, 30 Jul 2023 19:22:30 +0200},
+  biburl       = {https://dblp.org/rec/conf/aaai/ZhongLCJ0Y23.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
 
